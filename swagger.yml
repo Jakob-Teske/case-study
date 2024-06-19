@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: Github API
+  version: 1.0.0
+paths:
+  /api/issues/:
+    get:
+      summary: Get a list of issues
+      responses:
+        '200':
+          description: A list of issues
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  issues:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        state:
+                          type: string
+                        title:
+                          type: string

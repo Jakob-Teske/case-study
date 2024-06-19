@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A small backend",
+  "main": "app.js",
+  "repository": "git@github.com:Jakob-Teske/case-study.git",
+  "author": "Jakob Teske",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

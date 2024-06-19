@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Monorepo-specific ignores
+# Backend (Express.js)
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+/backend/*.log
+
+# Frontend (Nuxt)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.nuxt/
+/frontend/static/sw.js
+/frontend/static/workbox-*.js
+/frontend/.env
+/frontend/*.log
